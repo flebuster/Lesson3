@@ -213,6 +213,8 @@ header .logo{
 .container5{
 	background-image: url('/images/bottom_background.png');
 	background-repeat: no-repeat;
+	background-size: cover;
+	
 	
 	width: 1600px; 
 	height: 620px;
@@ -237,7 +239,7 @@ header .logo{
 
 
 .container5 .first_block input{
-	text-align: center;
+	
 	margin-top: 3vh;
 	margin-left: 210px;
 	background-color: rgba(255, 0, 0, 0) ;
@@ -250,12 +252,14 @@ header .logo{
 	padding-bottom: 20px;
 	padding-left: 0px;
 	padding-right: 520px; 
-	
+}
+.container5 .first_block input::placeholder{
+	position: relative;
+	left: 20px;
 }
 
-.container5 .second_block input{
 
-	text-align: center;
+.container5 .second_block input{
 	margin-left: 210px;
 	margin-top: 2vh;
 	font-size: 15px;
@@ -267,14 +271,16 @@ header .logo{
 	padding-top: 20px; 
 	padding-bottom: 20px ;
 	padding-left: 0px;
-	padding-right: 520px;
-	
+	padding-right: 520px;	
 }
 
-
+.container5 .second_block input::placeholder{
+	position: relative;
+	left: 20px;
+}
 
 .container5 .third_block input{
-	text-align: center;
+	position: relative;
 	margin-left: 210px;
 	margin-top: 2vh;
 	font-size: 15px;
@@ -289,6 +295,11 @@ header .logo{
 	padding-right: 520px;
 }
 
+.container5 .third_block input::placeholder{
+	position: relative;
+	top: -40px;
+	left: 20px;
+}
 .container5 .forth_block{
 	position: relative;
 	color: #ffffff;
@@ -300,7 +311,7 @@ header .logo{
 .container5 .btn2{
 	position: relative;
 	text-align: right;
-	margin-right: 26.5vh;
+	margin-right: 26.2vh;
 	margin-top:-10px;
 }
 .container5 .btn2 a{
@@ -342,8 +353,6 @@ footer .span_text{
 }
 .container6 .Facebook, .Twitter, .Google, .in{
 	position: relative;
-	
-
 }
 
 .container6 .Facebook{
