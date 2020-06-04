@@ -193,13 +193,14 @@ header .logo{
 	align-items: center; 
 }
 .container5{
+	position: relative;
 	background-image: url('/images/bottom_background.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	
 	
 	width: 1600px; 
-	height: 620px;
+	height: 700px;
 	/* max-height: 700px; */
 }
 .container5 h3{
@@ -218,7 +219,7 @@ header .logo{
 .container5 .first_block input{
 	
 	margin-top: 3vh;
-	margin-left: 210px;
+	margin-left: 228px;
 	background-color: rgba(255, 0, 0, 0) ;
 	font-size: 15px;
 	text-decoration: none;
@@ -235,7 +236,7 @@ header .logo{
 	left: 20px;
 }
 .container5 .second_block input{
-	margin-left: 210px;
+	margin-left: 228px;
 	margin-top: 2vh;
 	font-size: 15px;
 	text-decoration: none;
@@ -254,7 +255,7 @@ header .logo{
 }
 .container5 .third_block input{
 	position: relative;
-	margin-left: 210px;
+	margin-left: 228px;
 	margin-top: 2vh;
 	font-size: 15px;
 	text-decoration: none;
@@ -276,13 +277,13 @@ header .logo{
 	position: relative;
 	color: #ffffff;
 	margin-top: 3vh;
-	margin-left: 22vh;
+	margin-left: 24.2vh;
 	font-size: 15px;
 }
 .container5 .btn2{
 	position: relative;
 	text-align: right;
-	margin-right: 26.2vh;
+	margin-right: 24.3vh;
 	margin-top:-10px;
 }
 .container5 .btn2 a{
@@ -299,10 +300,14 @@ header .logo{
 }
 .container5 .btn2 a:hover{
 	background: #5d9be8;
-	font-size: 20px;
+	font-size: 19px;
 	border-radius: 4px;
 }
 footer{
+	position: relative;
+	margin-top: 100px;
+	padding-top: 30px;
+	padding-bottom: 10px;
     height:90px;
 	background-color:#f7f9f9;   
 }
@@ -310,7 +315,7 @@ footer .span_text{
 	font-size: 15px;
 	color: #989898;
 	position: relative;
-	top: 40px;
+	top: 30px;
 	
 }
 .container6 .icons{
@@ -323,7 +328,7 @@ footer .span_text{
 }
 .container6 .Facebook{
 	text-align: right;
-	margin-left: 950px;
+	margin-left: 970px;
 	margin-right: 5px;
 }
 .container6 .Twitter{
