@@ -34,7 +34,6 @@ table {
 }
 /* end reset.css*/
 
-
 body{
 	font-family: 'Lato', sans-serif;
 }
@@ -48,13 +47,10 @@ body{
     width:100%;
     margin:0 auto;
 }
-
 header{
     height:100px;
     background-color:#f6f9f9;   
 }
-
-
 header .logo_text{
 	font-size: 30px;
 	font-weight: bold;
@@ -62,12 +58,9 @@ header .logo_text{
 	top: -5px;
 	left: 10px;
 }
-
 header .logo{
 	margin-top: 30px;
-
 }
-
 .container2{
 	background-image: url('/images/top_background.png');
 	background-repeat: no-repeat;
@@ -103,7 +96,6 @@ header .logo{
 	text-align: center;
 	margin-top: 10vh;
 }
-
 .container2 .btn a{
 	text-decoration: none;
 	color: #ffffff;
@@ -121,21 +113,17 @@ header .logo{
 	font-size: 20px;
 	border-radius: 3px;
 }
-
-
 .container3{
 	background-color: #f7f9f9;
 	height: 340px;
 	
 }
-
 .container3 h3{
 	text-align: center;
 	font-size: 40px;
 	color: #343c50;
 	padding-top: 10vh;
 }
-
 .container3 .descr{
 	text-align: center;
 	font-size: 20px;
@@ -144,7 +132,6 @@ header .logo{
 	line-height: 1.5;
 
 }
-
 .container4{
 	background-color: #ffffff;
 	height: 340px;
@@ -165,12 +152,10 @@ header .logo{
 	margin-left: 100px;
 	margin-top: 60px;
 }
-
 .container4 img{                   
 	position: relative;
 	left: 70px;
-}
-	
+}	
 .container4 h4{
 	text-align: center;
 	font-size: 22px;
@@ -190,7 +175,6 @@ header .logo{
 	right: 25%;
 	width: 300px;           
 }
-
 .container4 .logo_telegram{
 	position: relative;
 	width: 35%;
@@ -198,7 +182,6 @@ header .logo{
 	margin-top: 60px;
 	margin-left: 35px;
 }
-
 .container4 .logo_loud{
 	width: 35%;
 	height: 100px;
@@ -209,7 +192,6 @@ header .logo{
 .first-block, .second-block, .third-block{                 
 	align-items: center; 
 }
-
 .container5{
 	background-image: url('/images/bottom_background.png');
 	background-repeat: no-repeat;
@@ -220,8 +202,6 @@ header .logo{
 	height: 620px;
 	/* max-height: 700px; */
 }
-	
-
 .container5 h3{
 	text-align: center;
 	font-size: 41px;
@@ -235,9 +215,6 @@ header .logo{
 	color: #6e7178;
 	padding-top: 3vh;
 }
-
-
-
 .container5 .first_block input{
 	
 	margin-top: 3vh;
@@ -257,8 +234,6 @@ header .logo{
 	position: relative;
 	left: 20px;
 }
-
-
 .container5 .second_block input{
 	margin-left: 210px;
 	margin-top: 2vh;
@@ -273,12 +248,10 @@ header .logo{
 	padding-left: 0px;
 	padding-right: 520px;	
 }
-
 .container5 .second_block input::placeholder{
 	position: relative;
 	left: 20px;
 }
-
 .container5 .third_block input{
 	position: relative;
 	margin-left: 210px;
@@ -294,7 +267,6 @@ header .logo{
 	padding-left: 0px;
 	padding-right: 520px;
 }
-
 .container5 .third_block input::placeholder{
 	position: relative;
 	top: -40px;
@@ -307,7 +279,6 @@ header .logo{
 	margin-left: 22vh;
 	font-size: 15px;
 }
-
 .container5 .btn2{
 	position: relative;
 	text-align: right;
@@ -331,13 +302,10 @@ header .logo{
 	font-size: 20px;
 	border-radius: 4px;
 }
-
-
 footer{
     height:90px;
 	background-color:#f7f9f9;   
 }
-
 footer .span_text{
 	font-size: 15px;
 	color: #989898;
@@ -345,7 +313,6 @@ footer .span_text{
 	top: 40px;
 	
 }
-
 .container6 .icons{
 	display: flex;
 	flex-wrap: wrap;
@@ -354,7 +321,6 @@ footer .span_text{
 .container6 .Facebook, .Twitter, .Google, .in{
 	position: relative;
 }
-
 .container6 .Facebook{
 	text-align: right;
 	margin-left: 950px;
