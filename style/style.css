@@ -39,7 +39,7 @@ body{
 }
 .wrapper{
     max-width:1600px;
-    width:100%;
+	width:100%;
     margin:0 auto;
 }
 .center{
@@ -74,7 +74,6 @@ header .logo{
 	font-weight: bold;
 	color: #ffffff;
 	padding-top: 20vh;
-
 }
 .container2 i{
 	display: block;
@@ -83,7 +82,6 @@ header .logo{
 	background: #5ea2f7;
 	margin: 0 auto;
 	margin-top: 3vh;
-
 }
 .container2 .desc{
 	text-align: center;
@@ -91,7 +89,6 @@ header .logo{
 	color: #ffffff;
 	margin-top: 5vh;
 }
-
 .container2 .btn{
 	text-align: center;
 	margin-top: 10vh;
@@ -116,39 +113,33 @@ header .logo{
 .container3{
 	background-color: #f7f9f9;
 	height: 340px;
-	
 }
 .container3 h3{
 	text-align: center;
 	font-size: 40px;
 	color: #343c50;
-	padding-top: 10vh;
+	padding-top: 100px;
 }
-.container3 .descr{
+.container3 .container3_descr{
 	text-align: center;
 	font-size: 20px;
 	color: #989898;
-	margin-top: 3vh;
+	margin-top: 30px;
 	line-height: 1.5;
-
 }
 .container4{
 	background-color: #ffffff;
 	height: 340px;
-	
 }
 .container4 .blocks{
 	display: flex;
 	flex-wrap: wrap;
 	height: 340px;
-
-	
 }
 .container4 .logo_phone{
 	position: relative;
 	width: 35%;
 	height: 100px;
-	
 	margin-left: 100px;
 	margin-top: 60px;
 }
@@ -187,38 +178,60 @@ header .logo{
 	height: 100px;
 	margin-top: 60px;
 	margin-left: 35px;
-	
 }
 .first-block, .second-block, .third-block{                 
 	align-items: center; 
 }
 .container5{
 	position: relative;
-	background-image: url('/images/bottom_background.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	
-	
-	width: 1600px; 
-	height: 700px;
-	/* max-height: 700px; */
+	background-color: #f7f9f9;
+	height: 800px;
 }
 .container5 h3{
 	text-align: center;
 	font-size: 41px;
-	
-	color: #ffffff;
-	padding-top: 5vh;
+	color: #343c50;
+	padding-top: 55px;
 }
-.container5 h4{
+.container5 .container5_descr{
+	text-align: center;
+	font-size: 15px;
+	color: #989898;
+	margin-top: 30px;
+	line-height: 1.5;
+}
+.container5_blocks{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.container5_blocks img{
+	position: relative;
+	margin-bottom: 33px;
+}
+.container6{
+	position: relative;
+	background-image: url('/images/bottom_background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1600px; 
+	height: 660px;
+}
+.container6 h3{
+	text-align: center;
+	font-size: 41px;
+	color: #ffffff;
+	padding-top: 50px;
+}
+.container6 h4{
 	text-align: center;
 	font-size: 15px;
 	color: #6e7178;
-	padding-top: 3vh;
+	padding-top: 30px;
 }
-.container5 .first_block input{
-	
-	margin-top: 3vh;
+.container6 .first_block input{
+	margin-top: 30px;
 	margin-left: 228px;
 	background-color: rgba(255, 0, 0, 0) ;
 	font-size: 15px;
@@ -231,13 +244,13 @@ header .logo{
 	padding-left: 0px;
 	padding-right: 520px; 
 }
-.container5 .first_block input::placeholder{
+.container6 .first_block input::placeholder{
 	position: relative;
 	left: 20px;
 }
-.container5 .second_block input{
+.container6 .second_block input{
 	margin-left: 228px;
-	margin-top: 2vh;
+	margin-top: 20px;
 	font-size: 15px;
 	text-decoration: none;
 	color: #6e7178;
@@ -249,14 +262,14 @@ header .logo{
 	padding-left: 0px;
 	padding-right: 520px;	
 }
-.container5 .second_block input::placeholder{
+.container6 .second_block input::placeholder{
 	position: relative;
 	left: 20px;
 }
-.container5 .third_block input{
+.container6 .third_block input{
 	position: relative;
 	margin-left: 228px;
-	margin-top: 2vh;
+	margin-top: 20px;
 	font-size: 15px;
 	text-decoration: none;
 	color: #6e7178;
@@ -268,26 +281,25 @@ header .logo{
 	padding-left: 0px;
 	padding-right: 520px;
 }
-.container5 .third_block input::placeholder{
+.container6 .third_block input::placeholder{
 	position: relative;
 	top: -40px;
 	left: 20px;
 }
-.container5 .forth_block{
+.container6 .forth_block{
 	position: relative;
 	color: #ffffff;
-	margin-top: 3vh;
-	margin-left: 24.2vh;
+	margin-top: 30px;
+	margin-left: 226px;
 	font-size: 15px;
 }
-.container5 .btn2{
+.container6 .btn2{
 	position: relative;
 	text-align: right;
-	margin-right: 24.3vh;
+	margin-right: 228px;
 	margin-top:-10px;
 }
-.container5 .btn2 a{
-	
+.container6 .btn2 a{
 	text-decoration: none;
 	color: #ffffff;
 	font-size: 18px;
@@ -298,16 +310,14 @@ header .logo{
 	padding-left: 50px;
 	padding-right: 50px;
 }
-.container5 .btn2 a:hover{
+.container6 .btn2 a:hover{
 	background: #5d9be8;
 	font-size: 19px;
 	border-radius: 4px;
 }
 footer{
 	position: relative;
-	margin-top: 100px;
 	padding-top: 30px;
-	padding-bottom: 10px;
     height:90px;
 	background-color:#f7f9f9;   
 }
@@ -316,28 +326,30 @@ footer .span_text{
 	color: #989898;
 	position: relative;
 	top: 30px;
-	
 }
-.container6 .icons{
+.container7 .icons{
 	display: flex;
-	flex-wrap: wrap;
-	
+	justify-content: flex-end;
 }
-.container6 .Facebook, .Twitter, .Google, .in{
-	position: relative;
-}
-.container6 .Facebook{
-	text-align: right;
-	margin-left: 970px;
-	margin-right: 5px;
-}
-.container6 .Twitter{
-	text-align: right;
-	margin-right: 5px;
-}
-.container6 .Google{
-	text-align: right;
+.container7 img{
 	margin-right: 5px;
 }
 
+@media(max-width: 1440px) {
+	.center{ width: 90%;
+	}
+	.container6{
+	width: 1440px;
+	}
+}
+@media(max-width: 1024px) {
+	.container6{
+		width: 1024px;
+		}
+}
 
+@media(max-width: 700px) {
+.container2 i{
+	width: 70%;
+	}
+}
